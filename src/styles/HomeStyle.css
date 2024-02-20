@@ -1,0 +1,138 @@
+.cardImage{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	width:50%;
+	perspective:1000px;
+}
+
+.cardImage img{
+	width:49%;
+	height:350px;
+	transition:transform .5s ease, z-index .5s;
+	border-radius:6px;
+	box-shadow:-1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+	object-fit:cover;
+}
+
+.cardImage img:nth-child(1){
+	rotate:-8deg;
+	translate:30%;
+}
+
+.cardImage img:nth-child(2){
+	position:absolute;
+	top:-10%;
+	right:0;
+	rotate:9deg;
+}
+
+.cardImage:hover img:nth-child(1){
+	transform:translateX(-40px);
+}
+
+.cardImage:hover img:nth-child(2){
+	transform:translateX(40px);
+}
+
+.cardText{
+	font-size:1.1rem;
+	line-height:1.5rem;
+	width:50%;
+	text-align:start;
+}
+
+.cardText h2{
+	padding-bottom:1rem;
+}
+
+.cards1{
+	font-family:Roboto, sans-serif;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin-top:0;
+	margin-bottom:10rem;
+}
+
+.cards2{
+	font-family:Roboto, sans-serif;
+	display:flex;
+	align-items:center;
+	flex-direction:row-reverse;
+	justify-content:space-between;
+	margin-top:4rem;
+}
+
+.cards2 .cardImage{
+	right:7%;
+}
+
+.home{
+	position:relative;
+	width:100%;
+	height:60vh;
+}
+
+.home img{
+	width:100%;
+	height:100%;
+	max-height:700px;
+	opacity:70%;
+	object-fit:cover;
+}
+
+.homeCards{
+	max-width:80%;
+	margin:4rem auto 8rem;
+}
+
+.homeCards h1{
+	font-size:3rem;
+	text-align:left;
+}
+
+.homeText{
+	font-family:"Cascadia Code", sans-serif;
+	font-size:2rem;
+	font-weight:800;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:100%;
+	transform:translate(-50%, -50%);
+	text-align:center;
+	color:#fff;
+	text-shadow:#000 3px 3px 4px;
+}
+
+.homeText button{
+	font-size:1.1rem;
+	font-weight:700;
+	padding:.6rem 2rem;
+	cursor:pointer;
+	transition:all .1s ease-in-out;
+	letter-spacing:2px;
+	color:#000;
+	border:none;
+	border-radius:6px;
+	background-color:#fff;
+}
+
+.homeText button:hover{
+	transition:all .1s ease-in-out;
+	background-color:#ddd;
+}
+
+.homeText h1{
+	font-size:3em;
+	font-weight:700;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0 4rem 2rem;
+	color:#fff;
+}
+
+.homeText p{
+	margin:0 80px;
+}

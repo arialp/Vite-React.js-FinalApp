@@ -1,0 +1,55 @@
+.form{
+	width:100%;
+	max-width:500px;
+	margin:0 auto 3rem;
+	padding:20px;
+}
+
+.form button{
+	padding:10px 20px;
+	cursor:pointer;
+	transition:all .1s ease-in-out;
+	color:#000;
+	border:none;
+	background-color:#fff;
+}
+
+.form button:hover{
+	transition:all .1s ease-in-out;
+	background-color:#ddd;
+}
+
+.form h2{
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.form input, .form textarea{
+	width:90%;
+	margin-bottom:20px;
+	padding:10px;
+}
+
+.form label{
+	display:block;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.form p{
+	font-size:14px;
+}
+
+.form textarea{
+	width:96%;
+	min-height:60px;
+}
+
+.name-email{
+	display:flex;
+	justify-content:space-between;
+}
+
+.name-email label{
+	width:48%;
+}
