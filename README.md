@@ -1,8 +1,21 @@
-# React + Vite
+# Üretken Akademi Final Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje React + Vite kullanılarak yapılmıştır. Şimdilik sadece 3 sayfa var:
 
-Currently, two official plugins are available:
+**Anasayfa**: Başlangıç sayfasına yazı, resim ve sayfanın bir sonraki div'ine gitmek için bir buton koydum. Bu sonraki div'de ise resimlerin üzerinde imlecinizi getirince gözüken küçük bir animasyon yaptım.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Hizmetler**: Burada 3 tane sosyal tesisi isim, fotoğraf ve açıklamalarıyla birlikte sütunlara ayırdım.
+
+**İletişim**: Burada basit bir form oluşturdum. Kullanıcının yaptığı hataları yakalayıp uyaran ve başarılı bir form gönderdiğinde ise kullanıcıyı formun gönderildiğine dair uyarı mesajı çıkıyor. Form içeriği şimdilik konsola yazdırılıyor.
+
+### Projeye istediğiniz şekilde daha fazla navbar, footer ögeleri, sayfalar ve sayfa içeriği ekleyip, değiştirip, çıkarabilirsiniz. 
+
+`src/data` klasöründe componentlerin ve sayfaların kullandığı datalar,
+
+`src/components` klasöründe navbar, footer gibi elementler,
+
+`src/pages` klasöründe sayfalar,
+
+`src/assets` klasöründe kullanılan png,svg gibi dosyalar,
+
+`src/styles` klasöründe CSS dosyaları vardır.
