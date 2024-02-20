@@ -19,3 +19,5 @@ Bu proje React + Vite kullanılarak yapılmıştır. Şimdilik sadece 3 sayfa va
 `src/assets` klasöründe kullanılan png,svg gibi dosyalar,
 
 `src/styles` klasöründe CSS dosyaları vardır.
+
+Sayfalar arasında geçiş için `react-router-dom` modülünü kullandım.
